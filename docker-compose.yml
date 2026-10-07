@@ -85,7 +85,7 @@ services:
       vote:
         condition: service_healthy
     networks:
-      - front-tier
+      - frontend
     restart: "no"
 
 volumes:
